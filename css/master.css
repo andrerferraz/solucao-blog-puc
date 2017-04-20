@@ -13,7 +13,7 @@ header.page-header>nav {
 }
 
 header.page-header>nav ul {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -55,8 +55,8 @@ div.post-image>img {
 article.post {
     padding: 2em;
     float: left;
-    width: 75%;
-    border: 1px solid gray;
+    width: 70%;
+    /*border: 1px solid gray;*/
     margin-left: 4%;
     min-height: 30em;
 }
@@ -73,7 +73,7 @@ div.footer-wrap {
 footer {
     width: 80%;
     min-height: 100px;
-    border: 1px solid;
+    /*border: 1px solid;*/
     position: absolute;
     bottom: 0;
     right: 0;
@@ -86,16 +86,16 @@ aside {
 
 .correlated-content {
     float: left;
-    width: 15%;
+    width: 18%;
     margin-bottom: 2em;
     min-height: 30em;
-    border: 1px solid grey;
+    /*border: 1px solid grey;*/
 }
 
 aside.news {
     min-height: 150px;
     width: 15%;
-    border: 1px solid grey;
+    /*border: 1px solid grey;*/
 }
 
 
