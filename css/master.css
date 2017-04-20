@@ -1,0 +1,180 @@
+body {
+    padding: 1em 4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header.page-header {
+    padding: 2em;
+}
+
+header.page-header>nav {
+    float: right;
+    width: 80%;
+}
+
+header.page-header>nav ul {
+    width: 40%;
+    margin: 0 auto;
+}
+
+header.page-header>nav li {
+    list-style: none;
+    float: left;
+    padding: 1.2em 2.5em;
+    background-color: #bdbdbd;
+    color: #424242;
+    margin-right: 0.2em;
+    border-radius: 0.5em;
+}
+
+header.page-header>nav li:hover {
+    background-color: #424242;
+    color: #bdbdbd;
+}
+
+div.logo {
+    float: left;
+}
+
+
+/* post image and post image crop */
+
+div.post-image {
+    overflow: hidden;
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin: 1em;
+}
+
+div.post-image>img {
+    width: auto;
+    height: 200px;
+}
+
+article.post {
+    padding: 2em;
+    float: left;
+    width: 80%;
+    border: 1px solid gray;
+    margin-left: 1%;
+    min-height: 30em;
+}
+
+div.footer {
+    position: relative;
+}
+
+div.footer-wrap {
+    float: left;
+    width: 100%;
+}
+
+footer {
+    width: 80%;
+    min-height: 100px;
+    border: 1px solid;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+footer,
+aside {
+    text-align: center;
+}
+
+.correlated-content {
+    float: left;
+    width: 15%;
+    margin-bottom: 2em;
+    min-height: 30em;
+    border: 1px solid grey;
+}
+
+aside.news {
+    min-height: 150px;
+    width: 15%;
+    border: 1px solid grey;
+}
+
+
+/* clearfix hack */
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+    /* For IE 6/7 (trigger hasLayout) */
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 0em;
+    }
+    article.post {
+        width: 70%;
+        float: none;
+        margin: 0 auto;
+    }
+    .correlated-content {
+        display: none;
+    }
+    aside.news {
+        display: none;
+    }
+    div.post-image {
+        width: 90%;
+        height: 150px;
+        float: left;
+        margin: 1em;
+    }
+    div.post-image>img {
+        height: 150px;
+    }
+    div.footer-wrap {
+        width: 100%;
+    }
+    div.footer {
+        position: static;
+    }
+    footer {
+        margin: 1em auto;
+        position: static;
+    }
+    header.page-header>nav li {
+        width: 73%;
+        float: none;
+        margin: 0.20em auto;
+        border-radius: 0.5em;
+    }
+    header.page-header>nav ul {
+        padding: 0;
+        width: 100%;
+        float: none;
+        margin-bottom: 1em;
+    }
+    header.page-header>nav {
+        width: 90%;
+        float: none;
+        margin: 0 auto;
+    }
+    header.page-header {
+        width: 100%;
+        float: none;
+        padding: 0;
+    }
+    div.logo {
+        float: none;
+        width: 95%;
+        padding: 1em;
+    }
+}
