@@ -13,7 +13,7 @@ header.page-header>nav {
 }
 
 header.page-header>nav ul {
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -55,9 +55,9 @@ div.post-image>img {
 article.post {
     padding: 2em;
     float: left;
-    width: 80%;
+    width: 75%;
     border: 1px solid gray;
-    margin-left: 1%;
+    margin-left: 4%;
     min-height: 30em;
 }
 
